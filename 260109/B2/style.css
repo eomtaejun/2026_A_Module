@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    height: 100vh;
+    padding: 5rem 0 0 0;
+}
+
+input{width: 200px !important;}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    width: 400px;
+}
+
+.item{background: #ddd;}

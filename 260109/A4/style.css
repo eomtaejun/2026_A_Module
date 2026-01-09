@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.custom-input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: .75rem .5rem;
+    font-size: 1.2rem;
+    width: 300px;
+    transition: all .25s ease;
+}
+.custom-input:focus{
+    border-color: var(--bs-blue);
+}
+
+.custom-button{
+    outline: none;
+    border: none;
+    background: var(--bs-blue);
+    border: 2px solid var(--bs-blue);
+    border-radius: 50rem;
+    color: #fafafa;
+    width: 100%;
+    margin-top: .5rem;
+    padding: 1rem 0;
+    transition: all .25s ease;
+}
+.custom-button:hover{
+    background-color: #fafafa;
+    border-color: var(--bs-blue);
+    color: var(--bs-blue);
+}
