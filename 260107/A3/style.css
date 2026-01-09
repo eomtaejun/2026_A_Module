@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0; transition: all .35s ease;}
+label{cursor: pointer;}
+
+.wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg{
+    display: block;
+    background: #ccc;
+    height: 40px;
+    width: 60px;
+    border-radius: 30px;
+
+    position: relative;
+}
+
+.btn{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background: #fafafa;
+    border-radius: 50%;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+
+input:checked~.container{background: #222;}
+input:checked~.wrap .bg{background: navy;}
+input:checked~.wrap .btn{background: #ffd700; left: 24px;}

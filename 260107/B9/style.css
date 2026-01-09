@@ -1,0 +1,35 @@
+body{background: #ccc; padding: 3rem 0;}
+
+.title{
+    font-size: 3rem;
+}
+
+
+.item{
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: .5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item .name{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.item .desc{
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+.item span{
+    font-size: 1.8rem;
+    color: #ffd700;
+    padding: 0 .5rem;
+
+    cursor: pointer;
+}
