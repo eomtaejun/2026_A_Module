@@ -1,0 +1,11 @@
+.item{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ddd;
+    padding: 1rem;
+    border-radius: .5rem;
+
+    margin-bottom: 1rem;
+}
