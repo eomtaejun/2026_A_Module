@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.tool{
+    display: none;
+    position: absolute;
+    width: 100vw;
+}
+.tool-1{
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -100%);
+    text-align: center;
+}
+.tool-2{
+    left: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+.text1:focus~.tool-1,
+.text1:hover~.tool-1{display: block;}
+.text2:focus~.tool-2,
+.text2:hover~.tool-2{display: block;}

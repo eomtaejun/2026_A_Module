@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#modal{
+    padding: 1.5rem;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #fafafa;
+    z-index: 99;
+}
+
+.modal_wrap{
+    position: relative;
+}
+
+#modal label[for="modal_close"]{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#modal_close:checked~#modal{
+    display: none;
+}
+#modal_open:checked~#modal{
+    display: block;
+}

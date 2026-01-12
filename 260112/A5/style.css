@@ -1,0 +1,38 @@
+.container>div{
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 100%;
+    padding: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.content{
+    font-size: 1.2rem;
+}
+.item *:last-child{
+    margin-left: auto;
+}
+
+.item .type{
+    font-size: .85rem;
+    display: block;
+    padding: .5rem 1.5rem;
+    border-radius: 50rem;
+    background: var(--bs-primary);
+    color: #fafafa;
+}
+.item .type.important{
+    background: var(--bs-danger);
+}
