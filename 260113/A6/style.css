@@ -1,0 +1,17 @@
+footer{
+    background: #36404f;
+}
+.border-bottom{border-color: #555 !important;}
+
+.world{
+    font-size: 2rem;
+    color: #6396d5;
+    font-weight: bold;
+}
+
+.fx-n1{font-size: .95rem !important;}
+.fx-n2{font-size: .9rem !important;}
+.fx-n3{font-size: .85rem !important;}
+.fx-n4{font-size: .8rem !important;}
+
+.text-gray{color: #b4bbc2;}

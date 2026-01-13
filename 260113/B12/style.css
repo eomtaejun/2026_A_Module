@@ -1,0 +1,11 @@
+.bw{
+    filter: grayscale(100%);
+}
+
+.sepia{
+    filter: sepia(100%);
+}
+
+.invert{
+    filter: invert(100%);
+}
