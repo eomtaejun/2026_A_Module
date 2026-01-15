@@ -1,0 +1,32 @@
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1rem;
+}
+
+img{width: 100%;}
+
+@media screen and (max-width: 767px){
+    .item{width: 100%;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .item{width: calc(100% / 2);}
+}
+
+@media screen and (min-width: 1024px){
+    .item{width: calc(100% / 4);}
+}
