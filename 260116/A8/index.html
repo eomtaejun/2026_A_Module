@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box rounded-3 shadow w-100 overflow-hidden">
+        <p class="mb-0 py-4 fw-bold fs-4 bg-dark text-light text-center">장바구니</p>
+
+        <div class="d-flex flex-column justify-content-center align-items-center w-100 border-bottom">
+            <div class="item">
+                <div class="d-flex justify-content-start align-items-center h-100">
+                    <div class="img">
+                        <img src="./images/tshirt.jpg" alt="">
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-between align-items-start ms-3 h-100">
+                        <p class="fs-4 fw-bold mb-auto">WorldSkills 공식 티셔츠</p>
+                        <p class="mb-0 text-secondary fw-semibold">색상: 네이비</p>
+                        <p class="mb-0 text-secondary fw-semibold">사이즈: L</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-end align-items-center gap-4">
+                    <div class="d-flex justify-content-end align-items-center gap-2">
+                        <button type="button" class="btn btn-light border fs-5 fw-bold">-</button>
+                        <p class="mb-0 fw-bold">2</p>
+                        <button type="button" class="btn btn-light border fs-5 fw-bold">+</button>
+                    </div>
+
+                    <p class="mb-0 fs-5 fw-bold">25,000원</p>
+
+                    <button type="button" class="del btn btn-danger fs-5 fw-bold">×</button>
+                </div>
+            </div>
+            
+            <div class="item">
+                <div class="d-flex justify-content-start align-items-center h-100">
+                    <div class="img">
+                        <img src="./images/book.jpg" alt="">
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-between align-items-start ms-3 h-100">
+                        <p class="fs-4 fw-bold mb-auto">기능경기 가이드북</p>
+                        <p class="mb-0 text-secondary fw-semibold">종류: 웹디자인</p>
+                        <p class="mb-0 text-secondary fw-semibold">2026년 최신판</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-end align-items-center gap-4">
+                    <div class="d-flex justify-content-end align-items-center gap-2">
+                        <button type="button" class="btn btn-light border fs-5 fw-bold">-</button>
+                        <p class="mb-0 fw-bold">1</p>
+                        <button type="button" class="btn btn-light border fs-5 fw-bold">+</button>
+                    </div>
+
+                    <p class="mb-0 fs-5 fw-bold">15,000원</p>
+
+                    <button type="button" class="del btn btn-danger fs-5 fw-bold">×</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="d-flex justify-content-start align-items-center h-100">
+                    <div class="img">
+                        <img src="./images/laptop-case.jpg" alt="">
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-between align-items-start ms-3 h-100">
+                        <p class="fs-4 fw-bold mb-auto">WorldSkills 노트북 파우치</p>
+                        <p class="mb-0 text-secondary fw-semibold">색상: 블랙</p>
+                        <p class="mb-0 text-secondary fw-semibold">15인치 호환</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-end align-items-center gap-4">
+                    <div class="d-flex justify-content-end align-items-center gap-2">
+                        <button type="button" class="btn btn-light border fs-5 fw-bold">-</button>
+                        <p class="mb-0 fw-bold">1</p>
+                        <button type="button" class="btn btn-light border fs-5 fw-bold">+</button>
+                    </div>
+
+                    <p class="mb-0 fs-5 fw-bold">35,000원</p>
+
+                    <button type="button" class="del btn btn-danger fs-5 fw-bold">×</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray p-4 w-100 border-bottom">
+            <div class="d-flex justify-content-between align-items-center w-100 mb-2">
+                <p class="mb-0 fs-5 fw-bold">상품금액</p>
+                <p class="mb-0 fs-5 fw-bold">75,000원</p>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center w-100 pb-4 mb-4 border-bottom">
+                <p class="mb-0 fs-5 fw-bold">배송비</p>
+                <p class="mb-0 fs-5 fw-bold">3,000원</p>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center w-100">
+                <p class="mb-0 fs-3 fw-bold">총 결제금액</p>
+                <p class="mb-0 fs-3 fw-bold">78,000원</p>
+            </div>
+        </div>
+
+        <div class="bg-white p-4 d-flex justify-content-center align-items-center gap-3">
+            <button type="button" class="btn btn-secondary py-3 px-4 fw-semibold">쇼핑 계속하기</button>
+            <button type="button" class="btn btn-success py-3 px-4 fw-semibold">주문하기</button>
+        </div>
+    </div>
+</body>
+</html>
